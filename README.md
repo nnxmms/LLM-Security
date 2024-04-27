@@ -51,7 +51,7 @@ python3 benchmark.py
 The results will be stored in a `benchmark.json` file
 
 ### OpenAI Example .env
-```toml
+```yaml
 # General
 VENDOR=openai
 MODELNAME=gpt-3.5-turbo
@@ -61,7 +61,7 @@ OPENAI_API_KEY=sk-...
 ```
 
 ### Ollama Example .env
-```toml
+```yaml
 # General
 VENDOR=ollama
 MODELNAME=llama3:instruct
